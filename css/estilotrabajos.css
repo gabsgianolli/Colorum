@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper{
+	width: 1440px;
+	height: 900px;
+}
+
+/*CSS HEADER*/ 
+
+#wrapper header{
+	background-image: url("../images/header.jpg");
+	position: absolute;
+  	left: -2px;
+  	top: 0px;
+ 	width: 1440px;
+  	height: 217px;
+  	z-index: 21;		
+}
+
+#wrapper header h1 figure img{
+	position: absolute;
+  	left: 65px;
+  	top: 66px;
+  	width: 310px;
+  	height: 65px;
+  	z-index: 23;
+}
+
+#wrapper header nav{
+	background-color: rgb(17, 49, 69);
+  	position: absolute;
+  	left: -2px;
+  	top: 165px;
+  	width: 1440px;
+  	height: 52px;
+  	z-index: 22;
+}
+
+#wrapper header nav ul li{
+    display: inline-block;
+    width: 250px;
+    text-align: center; 
+}
+
+a{
+    color: rgb(232, 230, 224);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+a:hover{
+	color: #f1b431;
+}
+
+/*CSS CUERPO*/
+
+#wrapper{
+	box-sizing: border-box;
+}
+
+#wrapper #cuerpo{
+	width: 1440px;
+	height: 571px;
+	background-color: rgb(241, 180, 49);
+	position: absolute;
+	top: 217px;
+}
+
+#carouselExampleIndicators1{
+	position: absolute;
+	left: 395px;
+	top: 35px;
+	width: 649px;
+	height: 487px;
+	margin: 0px;
+}
+
+/*EMPIEZA FOOTER*/
+
+#wrapper footer{
+	background-color: rgb(17,49,69);
+	position: absolute;
+	top: 788px;
+	width: 1440px;
+	height: 112px;
+	text-align: center;
+}
+
+#wrapper footer #textopie{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 16px;
+	color: #e8e6e0;
+	padding-top: 60px;
+}
+
+
+#wrapperubicacion figure img{
+	position: absolute;
+  	left: 232px;
+  	top: 18px;
+  	width: 231px;
+  	height: 51px;
+}
+
+#wrappertelefono figure img{
+	position: absolute;
+  	left: 506px;
+  	top: 18px;
+  	width: 269px;
+  	height: 51px;
+}
+
+#wrappercorreo figure img{
+	position: absolute;
+  	left: 816px;
+  	top: 22px;
+  	width: 272px;
+  	height: 39px;
+}
+
+#wrapperbehance figure img{
+	position: absolute;
+  	left: 1104px;
+  	top: 15px;
+  	width: 51px;
+  	height: 51px;
+}
